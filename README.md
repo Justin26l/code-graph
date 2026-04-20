@@ -51,7 +51,7 @@ No cross-file name decisions here; only structural facts.
 
 ### Layer 2: TypeScript resolver (core accuracy)
 
-Use `ts.createProgram(...)` + `program.getTypeChecker()` (or `ts-morph` wrapper) to resolve symbols:
+Use `ts.createProgram` + `program.getTypeChecker()` (or `ts-morph` wrapper) to resolve symbols:
 
 - For each call expression:
   - `checker.getResolvedSignature(callExpr)`
@@ -97,7 +97,7 @@ Optional future outputs: Mermaid, Cytoscape.js, GraphML/GEXF, Neo4j import.
 
 - polymorphic “possible targets” edges
 - callback flow enrichment
-- SCC cycle detection
+- SCC (Strongly Connected Components) cycle detection
 - entrypoint/depth slicing
 - external library collapsing
 
