@@ -1,16 +1,20 @@
-# code-relation-graph
+# CodeGraph (code-relation-graph)
 
 A CLI tool that parses your source code and builds an interactive graph of relations between files, functions, and classes. Helps humans and AI agents understand code structure — what calls what, what imports what, and where things live.
 
 ## Quick start
 
 ```bash
-# Install globally (from this repo)
-npm install -g .
-# or run directly:
-node dist/cli.js --help
+# Install globally
+npm install -g @justin26l/codegraph
 
-# Parse a TypeScript project
+# build code graph (parse + html + export)
+codegraph build ./path-to-project/src
+```
+  
+Other usage  
+```
+# Parse project to nodes
 codegraph parse ./my-project --languages ts
 
 # Generate interactive HTML visualization
