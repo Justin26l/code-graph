@@ -1,0 +1,4485 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-05-26T07:09:08.248Z",
+  "stats": {
+    "nodeCount": 69,
+    "edgeCount": 347
+  },
+  "nodes": [
+    {
+      "id": "ts:src/app/models/http-exception.model.ts:(file)",
+      "type": "file",
+      "name": "http-exception.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/models/http-exception.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/models/http-exception.model.ts:HttpException:constructor",
+      "type": "method",
+      "name": "constructor",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/models/http-exception.model.ts",
+      "startLine": 1,
+      "endLine": 10,
+      "parentId": "ts:src/app/models/http-exception.model.ts:HttpException",
+      "metadata": {
+        "containerName": "HttpException"
+      }
+    },
+    {
+      "id": "ts:src/app/models/http-exception.model.ts:HttpException",
+      "type": "class",
+      "name": "HttpException",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/models/http-exception.model.ts",
+      "startLine": 1,
+      "endLine": 10,
+      "metadata": {
+        "exported": false,
+        "extendsName": "Error",
+        "implementsNames": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "type": "file",
+      "name": "article.controller.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/article/article.mapper.ts:(file)",
+      "type": "file",
+      "name": "article.mapper.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.mapper.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/article/article.mapper.ts:articleMapper",
+      "type": "function",
+      "name": "articleMapper",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.mapper.ts",
+      "startLine": 3,
+      "endLine": 14,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.model.ts:(file)",
+      "type": "file",
+      "name": "article.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:(file)",
+      "type": "file",
+      "name": "article.service.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:buildFindAllQuery",
+      "type": "function",
+      "name": "buildFindAllQuery",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 8,
+      "endLine": 67,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "type": "function",
+      "name": "getArticles",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 69,
+      "endLine": 111,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "type": "function",
+      "name": "getFeed",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 113,
+      "endLine": 160,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "type": "function",
+      "name": "createArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 162,
+      "endLine": 239,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "type": "function",
+      "name": "getArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 241,
+      "endLine": 274,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:disconnectArticlesTags",
+      "type": "function",
+      "name": "disconnectArticlesTags",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 276,
+      "endLine": 287,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "type": "function",
+      "name": "updateArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 289,
+      "endLine": 383,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "type": "function",
+      "name": "deleteArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 385,
+      "endLine": 414,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "type": "function",
+      "name": "getCommentsByArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 416,
+      "endLine": 471,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:addComment",
+      "type": "function",
+      "name": "addComment",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 473,
+      "endLine": 525,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "type": "function",
+      "name": "deleteComment",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 527,
+      "endLine": 560,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "type": "function",
+      "name": "favoriteArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 562,
+      "endLine": 606,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "type": "function",
+      "name": "unfavoriteArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+      "startLine": 608,
+      "endLine": 652,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/author.mapper.ts:(file)",
+      "type": "file",
+      "name": "author.mapper.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/author.mapper.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/article/author.mapper.ts:authorMapper",
+      "type": "function",
+      "name": "authorMapper",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/author.mapper.ts",
+      "startLine": 3,
+      "endLine": 10,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/article/comment.model.ts:(file)",
+      "type": "file",
+      "name": "comment.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/comment.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "type": "file",
+      "name": "auth.controller.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "type": "file",
+      "name": "auth.service.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:checkUserUniqueness",
+      "type": "function",
+      "name": "checkUserUniqueness",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 9,
+      "endLine": 36,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "type": "function",
+      "name": "createUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 38,
+      "endLine": 82,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:login",
+      "type": "function",
+      "name": "login",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 84,
+      "endLine": 129,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "type": "function",
+      "name": "getCurrentUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 131,
+      "endLine": 149,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "type": "function",
+      "name": "updateUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+      "startLine": 151,
+      "endLine": 183,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.ts:(file)",
+      "type": "file",
+      "name": "auth.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/auth.ts:getTokenFromHeaders",
+      "type": "function",
+      "name": "getTokenFromHeaders",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.ts",
+      "startLine": 4,
+      "endLine": 12,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/register-input.model.ts:(file)",
+      "type": "file",
+      "name": "register-input.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/register-input.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/registered-user.model.ts:(file)",
+      "type": "file",
+      "name": "registered-user.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/registered-user.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/token.utils.ts:(file)",
+      "type": "file",
+      "name": "token.utils.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/token.utils.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/auth/token.utils.ts:generateToken",
+      "type": "function",
+      "name": "generateToken",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/token.utils.ts",
+      "startLine": 3,
+      "endLine": 6,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "type": "file",
+      "name": "user.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/user.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "type": "file",
+      "name": "profile.controller.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.model.ts:(file)",
+      "type": "file",
+      "name": "profile.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "type": "file",
+      "name": "profile.service.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "type": "function",
+      "name": "getProfile",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+      "startLine": 5,
+      "endLine": 20,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "type": "function",
+      "name": "followUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+      "startLine": 22,
+      "endLine": 40,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "type": "function",
+      "name": "unfollowUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+      "startLine": 42,
+      "endLine": 60,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "type": "file",
+      "name": "profile.utils.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.utils.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/profile/profile.utils.ts:profileMapper",
+      "type": "function",
+      "name": "profileMapper",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.utils.ts",
+      "startLine": 4,
+      "endLine": 11,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/app/routes/routes.ts:(file)",
+      "type": "file",
+      "name": "routes.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/routes.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "type": "file",
+      "name": "tag.controller.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/tag/tag.model.ts:(file)",
+      "type": "file",
+      "name": "tag.model.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.model.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "type": "file",
+      "name": "tag.service.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.service.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/app/routes/tag/tag.service.ts:getTags",
+      "type": "function",
+      "name": "getTags",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.service.ts",
+      "startLine": 4,
+      "endLine": 38,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/main.ts:(file)",
+      "type": "file",
+      "name": "main.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/prisma/prisma-client.ts:(file)",
+      "type": "file",
+      "name": "prisma-client.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/prisma-client.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/prisma/seed.ts:(file)",
+      "type": "file",
+      "name": "seed.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ts:src/prisma/seed.ts:generateUser",
+      "type": "function",
+      "name": "generateUser",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+      "startLine": 16,
+      "endLine": 23,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/prisma/seed.ts:generateArticle",
+      "type": "function",
+      "name": "generateArticle",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+      "startLine": 25,
+      "endLine": 34,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/prisma/seed.ts:generateComment",
+      "type": "function",
+      "name": "generateComment",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+      "startLine": 36,
+      "endLine": 37,
+      "metadata": {
+        "kind": "function",
+        "exported": true,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/prisma/seed.ts:main",
+      "type": "function",
+      "name": "main",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+      "startLine": 39,
+      "endLine": 57,
+      "metadata": {
+        "kind": "function",
+        "exported": false,
+        "async": false,
+        "generator": false,
+        "params": []
+      }
+    },
+    {
+      "id": "ts:src/tests/prisma-mock.ts:(file)",
+      "type": "file",
+      "name": "prisma-mock.ts",
+      "language": "ts",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/tests/prisma-mock.ts",
+      "startLine": 1,
+      "endLine": 1,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src",
+      "type": "directory",
+      "name": "src",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app",
+      "type": "directory",
+      "name": "app",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/models",
+      "type": "directory",
+      "name": "models",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/models",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/routes",
+      "type": "directory",
+      "name": "routes",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/routes/article",
+      "type": "directory",
+      "name": "article",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/routes/auth",
+      "type": "directory",
+      "name": "auth",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/routes/profile",
+      "type": "directory",
+      "name": "profile",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/app/routes/tag",
+      "type": "directory",
+      "name": "tag",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/prisma",
+      "type": "directory",
+      "name": "prisma",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/prisma",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    },
+    {
+      "id": "dir:src/tests",
+      "type": "directory",
+      "name": "tests",
+      "language": "",
+      "filePath": "/home/justin/code-relation-graph/tests/sample-app/src/tests",
+      "startLine": 0,
+      "endLine": 0,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "sourceId": "ts:src/app/models/http-exception.model.ts:HttpException",
+      "targetId": "ts:src/app/models/http-exception.model.ts:HttpException:constructor",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:Router",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 17,
+        "callText": "Router()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:get",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 30,
+        "callText": "router.get('/articles', auth.optional, async (req: Request, res: Response, next:",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 32,
+        "callText": "getArticles(req.query, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:json",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 33,
+        "callText": "res.json(result)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:next",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 35,
+        "callText": "next(error)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 50,
+        "callText": "getFeed(\n        Number(req.query.offset),\n        Number(req.query.limit),\n    ",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:Number",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 51,
+        "callText": "Number(req.query.offset)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:post",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 71,
+        "callText": "router.post('/articles', auth.required, async (req: Request, res: Response, next",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 73,
+        "callText": "createArticle(req.body.article, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:status",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 74,
+        "callText": "res.status(201)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 92,
+        "callText": "getArticle(req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:put",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 110,
+        "callText": "router.put(\n  '/articles/:slug',\n  auth.required,\n  async (req: Request, res: Re",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 115,
+        "callText": "updateArticle(req.body.article, req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:delete",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 129,
+        "callText": "router.delete(\n  '/articles/:slug',\n  auth.required,\n  async (req: Request, res:",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 134,
+        "callText": "deleteArticle(req.params.slug, req.auth?.user!.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:sendStatus",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 135,
+        "callText": "res.sendStatus(204)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 154,
+        "callText": "getCommentsByArticle(req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 175,
+        "callText": "addComment(req.body.comment.body, req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 195,
+        "callText": "deleteComment(Number(req.params.id), req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 215,
+        "callText": "favoriteArticle(req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.controller.ts",
+        "callSiteLine": 235,
+        "callText": "unfavoriteArticle(req.params.slug, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:../../express:NextFunction",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "NextFunction"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:../../express:Request",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Request"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:../../express:Response",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Response"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:../../express:Router",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Router"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../auth/auth",
+        "resolvedFile": "src/app/routes/auth/auth.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./article.service",
+        "resolvedFile": "src/app/routes/article/article.service.ts",
+        "sourceLine": 3,
+        "importedName": "addComment"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.mapper.ts:articleMapper",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.mapper.ts",
+        "callSiteLine": 8,
+        "callText": "article.tagList.map((tag: any) => tag.name)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.mapper.ts:articleMapper",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.mapper.ts",
+        "callSiteLine": 11,
+        "callText": "article.favoritedBy.some((item: any) => item.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.mapper.ts:articleMapper",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:authorMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.mapper.ts",
+        "callSiteLine": 13,
+        "callText": "authorMapper(article.author, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.mapper.ts:(file)",
+      "targetId": "ts:src/app/routes/article/author.mapper.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./author.mapper",
+        "resolvedFile": "src/app/routes/article/author.mapper.ts",
+        "sourceLine": 1,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.model.ts:(file)",
+      "targetId": "ts:src/app/routes/article/comment.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./comment.model",
+        "resolvedFile": "src/app/routes/article/comment.model.ts",
+        "sourceLine": 1,
+        "importedName": "Comment"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:buildFindAllQuery",
+      "targetId": "ts:src/app/routes/article/article.service.ts:push",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 13,
+        "callText": "orAuthorQuery.push({\n    demo: {\n      equals: true,\n    },\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:buildFindAllQuery",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 70,
+        "callText": "buildFindAllQuery(query, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:count",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 71,
+        "callText": "prisma.article.count({\n    where: {\n      AND: andQueries,\n    },\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findMany",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 77,
+        "callText": "prisma.article.findMany({\n    where: { AND: andQueries },\n    orderBy: {\n      c",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:Number",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 82,
+        "callText": "Number(query.offset)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 108,
+        "callText": "articles.map((article: any) => articleMapper(article, id))",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "targetId": "ts:src/app/routes/article/article.service.ts:articleMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 108,
+        "callText": "articleMapper(article, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "targetId": "ts:src/app/routes/article/article.service.ts:count",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 114,
+        "callText": "prisma.article.count({\n    where: {\n      author: {\n        followedBy: { some: ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findMany",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 122,
+        "callText": "prisma.article.findMany({\n    where: {\n      author: {\n        followedBy: { som",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 157,
+        "callText": "articles.map((article: any) => articleMapper(article, id))",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "targetId": "ts:src/app/routes/article/article.service.ts:articleMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 157,
+        "callText": "articleMapper(article, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:isArray",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 164,
+        "callText": "Array.isArray(tagList)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 167,
+        "callText": "new HttpException(422, { errors: { title: [\"can't be blank\"] } })",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:slugify",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 178,
+        "callText": "slugify(title)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 180,
+        "callText": "prisma.article.findUnique({\n    where: {\n      slug,\n    },\n    select: {\n      ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:create",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 197,
+        "callText": "prisma.article.create({\n    data: {\n      title,\n      description,\n      body,\n",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 204,
+        "callText": "tags.map((tag: string) => ({\n          create: { name: tag },\n          where: {",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:articleMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 238,
+        "callText": "articleMapper(createdArticle, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 242,
+        "callText": "prisma.article.findUnique({\n    where: {\n      slug,\n    },\n    include: {\n     ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 270,
+        "callText": "new HttpException(404, { errors: { article: ['not found'] } })",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:articleMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 273,
+        "callText": "articleMapper(article, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:disconnectArticlesTags",
+      "targetId": "ts:src/app/routes/article/article.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 277,
+        "callText": "prisma.article.update({\n    where: {\n      slug,\n    },\n    data: {\n      tagLis",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findFirst",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 292,
+        "callText": "prisma.article.findFirst({\n    where: {\n      slug,\n    },\n    select: {\n      a",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 307,
+        "callText": "new HttpException(404, {})",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:slugify",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 317,
+        "callText": "slugify(article.title)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:isArray",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 336,
+        "callText": "Array.isArray(article.tagList)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 337,
+        "callText": "article.tagList.map((tag: string) => ({\n          create: { name: tag },\n       ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:disconnectArticlesTags",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 343,
+        "callText": "disconnectArticlesTags(slug)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 345,
+        "callText": "prisma.article.update({\n    where: {\n      slug,\n    },\n    data: {\n      ...(ar",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:Date",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 354,
+        "callText": "new Date()",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:articleMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 382,
+        "callText": "articleMapper(updatedArticle, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findFirst",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 386,
+        "callText": "prisma.article.findFirst({\n    where: {\n      slug,\n    },\n    select: {\n      a",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 401,
+        "callText": "new HttpException(404, {})",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:delete",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 409,
+        "callText": "prisma.article.delete({\n    where: {\n      slug,\n    },\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:push",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 419,
+        "callText": "queries.push({\n    author: {\n      demo: true,\n    },\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 433,
+        "callText": "prisma.article.findUnique({\n    where: {\n      slug,\n    },\n    include: {\n     ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 460,
+        "callText": "comments?.comments.map((comment: any) => ({\n    ...comment,\n    author: {\n      ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 466,
+        "callText": "comment.author.followedBy.some((follow: any) => follow.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 475,
+        "callText": "new HttpException(422, { errors: { body: [\"can't be blank\"] } })",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 478,
+        "callText": "prisma.article.findUnique({\n    where: {\n      slug,\n    },\n    select: {\n      ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:create",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 487,
+        "callText": "prisma.comment.create({\n    data: {\n      body,\n      article: {\n        connect",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 522,
+        "callText": "comment.author.followedBy.some((follow: any) => follow.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:findFirst",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 528,
+        "callText": "prisma.comment.findFirst({\n    where: {\n      id,\n      author: {\n        id: us",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 546,
+        "callText": "new HttpException(404, {})",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:delete",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 555,
+        "callText": "prisma.comment.delete({\n    where: {\n      id,\n    },\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 563,
+        "callText": "prisma.article.update({\n    where: {\n      slug: slugPayload,\n    },\n    data: {",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:profileMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 599,
+        "callText": "profileMapper(article.author, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 600,
+        "callText": "article?.tagList.map((tag: Tag) => tag.name)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 601,
+        "callText": "article.favoritedBy.some((favorited: any) => favorited.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 609,
+        "callText": "prisma.article.update({\n    where: {\n      slug: slugPayload,\n    },\n    data: {",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:profileMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 645,
+        "callText": "profileMapper(article.author, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 646,
+        "callText": "article?.tagList.map((tag: Tag) => tag.name)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/article.service.ts",
+        "callSiteLine": 647,
+        "callText": "article.favoritedBy.some((favorited: any) => favorited.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:../../slugify:default",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "slugify",
+        "sourceLine": 1,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../../prisma/prisma-client",
+        "resolvedFile": "src/prisma/prisma-client.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../models/http-exception.model",
+        "resolvedFile": "src/app/models/http-exception.model.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../profile/profile.utils",
+        "resolvedFile": "src/app/routes/profile/profile.utils.ts",
+        "sourceLine": 4,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./article.mapper",
+        "resolvedFile": "src/app/routes/article/article.mapper.ts",
+        "sourceLine": 5,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/tag/tag.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../tag/tag.model",
+        "resolvedFile": "src/app/routes/tag/tag.model.ts",
+        "sourceLine": 6,
+        "importedName": "Tag"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 69
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 113
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 162
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 241
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 289
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 385
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 416
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 473
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 527
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 562
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 608
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/author.mapper.ts:authorMapper",
+      "targetId": "ts:src/app/routes/article/author.mapper.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/article/author.mapper.ts",
+        "callSiteLine": 8,
+        "callText": "author?.followedBy.some((followingUser: Partial<User>) => followingUser.id === i",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/author.mapper.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../auth/user.model",
+        "resolvedFile": "src/app/routes/auth/user.model.ts",
+        "sourceLine": 1,
+        "importedName": "User"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/comment.model.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./article.model",
+        "resolvedFile": "src/app/routes/article/article.model.ts",
+        "sourceLine": 1,
+        "importedName": "Article"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:Router",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 5,
+        "callText": "Router()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:post",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 14,
+        "callText": "router.post('/users', async (req: Request, res: Response, next: NextFunction) =>",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 16,
+        "callText": "createUser({ ...req.body.user, demo: false })",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:status",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 17,
+        "callText": "res.status(201)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:json",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 17,
+        "callText": "res.status(201).json({ user })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:next",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 19,
+        "callText": "next(error)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 32,
+        "callText": "login(req.body.user)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:get",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 45,
+        "callText": "router.get('/user', auth.required, async (req: Request, res: Response, next: Nex",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 47,
+        "callText": "getCurrentUser(req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:put",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 61,
+        "callText": "router.put('/user', auth.required, async (req: Request, res: Response, next: Nex",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.controller.ts",
+        "callSiteLine": 63,
+        "callText": "updateUser(req.body.user, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:../../express:NextFunction",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "NextFunction"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:../../express:Request",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Request"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:../../express:Response",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Response"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:../../express:Router",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Router"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./auth",
+        "resolvedFile": "src/app/routes/auth/auth.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./auth.service",
+        "resolvedFile": "src/app/routes/auth/auth.service.ts",
+        "sourceLine": 3,
+        "importedName": "createUser"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:checkUserUniqueness",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 10,
+        "callText": "prisma.user.findUnique({\n    where: {\n      email,\n    },\n    select: {\n      id",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:checkUserUniqueness",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 29,
+        "callText": "new HttpException(422, {\n      errors: {\n        ...(existingUserByEmail ? { ema",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:trim",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 39,
+        "callText": "input.email?.trim()",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 45,
+        "callText": "new HttpException(422, { errors: { email: [\"can't be blank\"] } })",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:checkUserUniqueness",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 56,
+        "callText": "checkUserUniqueness(email, username)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:hash",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 58,
+        "callText": "bcrypt.hash(password, 10)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:create",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 60,
+        "callText": "prisma.user.create({\n    data: {\n      username,\n      email,\n      password: ha",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:generateToken",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 80,
+        "callText": "generateToken(user.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:trim",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 85,
+        "callText": "userPayload.email?.trim()",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 89,
+        "callText": "new HttpException(422, { errors: { email: [\"can't be blank\"] } })",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 96,
+        "callText": "prisma.user.findUnique({\n    where: {\n      email,\n    },\n    select: {\n      id",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:compare",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 111,
+        "callText": "bcrypt.compare(password, user.password)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:generateToken",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 119,
+        "callText": "generateToken(user.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 132,
+        "callText": "prisma.user.findUnique({\n    where: {\n      id,\n    },\n    select: {\n      id: t",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:generateToken",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 147,
+        "callText": "generateToken(user.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:hash",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 156,
+        "callText": "bcrypt.hash(password, 10)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 159,
+        "callText": "prisma.user.update({\n    where: {\n      id: id,\n    },\n    data: {\n      ...(ema",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:generateToken",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.service.ts",
+        "callSiteLine": 181,
+        "callText": "generateToken(user.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:../../bcryptjs:*",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "bcryptjs",
+        "sourceLine": 1,
+        "importedName": "*"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/register-input.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./register-input.model",
+        "resolvedFile": "src/app/routes/auth/register-input.model.ts",
+        "sourceLine": 2,
+        "importedName": "RegisterInput"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../../prisma/prisma-client",
+        "resolvedFile": "src/prisma/prisma-client.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../models/http-exception.model",
+        "resolvedFile": "src/app/models/http-exception.model.ts",
+        "sourceLine": 4,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/registered-user.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./registered-user.model",
+        "resolvedFile": "src/app/routes/auth/registered-user.model.ts",
+        "sourceLine": 5,
+        "importedName": "RegisteredUser"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/token.utils.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./token.utils",
+        "resolvedFile": "src/app/routes/auth/token.utils.ts",
+        "sourceLine": 6,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./user.model",
+        "resolvedFile": "src/app/routes/auth/user.model.ts",
+        "sourceLine": 7,
+        "importedName": "User"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 38
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 84
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 131
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 151
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.ts:getTokenFromHeaders",
+      "targetId": "ts:src/app/routes/auth/auth.ts:split",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.ts",
+        "callSiteLine": 6,
+        "callText": "req.headers.authorization.split(' ')",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.ts:(top-level)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:jwt",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/auth.ts",
+        "callSiteLine": 15,
+        "callText": "jwt({\n    secret: process.env.JWT_SECRET || 'superSecret',\n    getToken: getToke",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "targetId": "ts:../../express-jwt:expressjwt",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express-jwt",
+        "sourceLine": 1,
+        "importedName": "expressjwt"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "targetId": "ts:../../express:*",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 2,
+        "importedName": "*"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/token.utils.ts:generateToken",
+      "targetId": "ts:src/app/routes/auth/token.utils.ts:sign",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/auth/token.utils.ts",
+        "callSiteLine": 4,
+        "callText": "jwt.sign({ user: { id } }, process.env.JWT_SECRET || 'superSecret', {\n    expire",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/token.utils.ts:(file)",
+      "targetId": "ts:../../jsonwebtoken:*",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "jsonwebtoken",
+        "sourceLine": 1,
+        "importedName": "*"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../article/article.model",
+        "resolvedFile": "src/app/routes/article/article.model.ts",
+        "sourceLine": 1,
+        "importedName": "Article"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "targetId": "ts:src/app/routes/article/comment.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../article/comment.model",
+        "resolvedFile": "src/app/routes/article/comment.model.ts",
+        "sourceLine": 2,
+        "importedName": "Comment"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:Router",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 5,
+        "callText": "Router()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:get",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 14,
+        "callText": "router.get(\n  '/profiles/:username',\n  auth.optional,\n  async (req: Request, res",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 19,
+        "callText": "getProfile(req.params.username, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:json",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 20,
+        "callText": "res.json({ profile })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:next",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 22,
+        "callText": "next(error)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:post",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 34,
+        "callText": "router.post(\n  '/profiles/:username/follow',\n  auth.required,\n  async (req: Requ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 39,
+        "callText": "followUser(req.params?.username, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:delete",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 54,
+        "callText": "router.delete(\n  '/profiles/:username/follow',\n  auth.required,\n  async (req: Re",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.controller.ts",
+        "callSiteLine": 59,
+        "callText": "unfollowUser(req.params.username, req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:../../express:NextFunction",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "NextFunction"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:../../express:Request",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Request"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:../../express:Response",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Response"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:../../express:Router",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Router"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../auth/auth",
+        "resolvedFile": "src/app/routes/auth/auth.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./profile.service",
+        "resolvedFile": "src/app/routes/profile/profile.service.ts",
+        "sourceLine": 3,
+        "importedName": "followUser"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:findUnique",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 6,
+        "callText": "prisma.user.findUnique({\n    where: {\n      username: usernamePayload,\n    },\n  ",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:HttpException",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 16,
+        "callText": "new HttpException(404, {})",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:profileMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 19,
+        "callText": "profileMapper(profile, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 23,
+        "callText": "prisma.user.update({\n    where: {\n      username: usernamePayload,\n    },\n    da",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:profileMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 39,
+        "callText": "profileMapper(profile, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:update",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 43,
+        "callText": "prisma.user.update({\n    where: {\n      username: usernamePayload,\n    },\n    da",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:profileMapper",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.service.ts",
+        "callSiteLine": 59,
+        "callText": "profileMapper(profile, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../../prisma/prisma-client",
+        "resolvedFile": "src/prisma/prisma-client.ts",
+        "sourceLine": 1,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./profile.utils",
+        "resolvedFile": "src/app/routes/profile/profile.utils.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../models/http-exception.model",
+        "resolvedFile": "src/app/models/http-exception.model.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 5
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 22
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 42
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.utils.ts:profileMapper",
+      "targetId": "ts:src/app/routes/profile/profile.utils.ts:some",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/profile/profile.utils.ts",
+        "callSiteLine": 9,
+        "callText": "user?.followedBy.some((followingUser: Partial<User>) => followingUser.id === id)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../auth/user.model",
+        "resolvedFile": "src/app/routes/auth/user.model.ts",
+        "sourceLine": 1,
+        "importedName": "User"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./profile.model",
+        "resolvedFile": "src/app/routes/profile/profile.model.ts",
+        "sourceLine": 2,
+        "importedName": "Profile"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(top-level)",
+      "targetId": "ts:src/app/routes/routes.ts:Router",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/routes.ts",
+        "callSiteLine": 7,
+        "callText": "Router()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(top-level)",
+      "targetId": "ts:src/app/routes/routes.ts:use",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/routes.ts",
+        "callSiteLine": 7,
+        "callText": "Router()\n  .use(tagsController)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(file)",
+      "targetId": "ts:../../express:Router",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Router"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(file)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./tag/tag.controller",
+        "resolvedFile": "src/app/routes/tag/tag.controller.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./article/article.controller",
+        "resolvedFile": "src/app/routes/article/article.controller.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./auth/auth.controller",
+        "resolvedFile": "src/app/routes/auth/auth.controller.ts",
+        "sourceLine": 4,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/routes.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./profile/profile.controller",
+        "resolvedFile": "src/app/routes/profile/profile.controller.ts",
+        "sourceLine": 5,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:Router",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+        "callSiteLine": 5,
+        "callText": "Router()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:get",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+        "callSiteLine": 13,
+        "callText": "router.get('/tags', auth.optional, async (req: Request, res: Response, next: Nex",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:getTags",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+        "callSiteLine": 15,
+        "callText": "getTags(req.auth?.user?.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:json",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+        "callSiteLine": 16,
+        "callText": "res.json({ tags })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(top-level)",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:next",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.controller.ts",
+        "callSiteLine": 18,
+        "callText": "next(error)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:../../express:NextFunction",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "NextFunction"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:../../express:Request",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Request"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:../../express:Response",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Response"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:../../express:Router",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "Router"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../auth/auth",
+        "resolvedFile": "src/app/routes/auth/auth.ts",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./tag.service",
+        "resolvedFile": "src/app/routes/tag/tag.service.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:getTags",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:push",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.service.ts",
+        "callSiteLine": 6,
+        "callText": "queries.push({ demo: true })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:getTags",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:findMany",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.service.ts",
+        "callSiteLine": 16,
+        "callText": "prisma.tag.findMany({\n    where: {\n      articles: {\n        some: {\n          a",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:getTags",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/app/routes/tag/tag.service.ts",
+        "callSiteLine": 37,
+        "callText": "tags.map((tag: Tag) => tag.name)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../../../prisma/prisma-client",
+        "resolvedFile": "src/prisma/prisma-client.ts",
+        "sourceLine": 1,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "targetId": "ts:src/app/routes/tag/tag.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./tag.model",
+        "resolvedFile": "src/app/routes/tag/tag.model.ts",
+        "sourceLine": 2,
+        "importedName": "Tag"
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:express",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 7,
+        "callText": "express()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:use",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 13,
+        "callText": "app.use(cors())",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:cors",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 13,
+        "callText": "cors()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:json",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 14,
+        "callText": "bodyParser.json()",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:urlencoded",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 15,
+        "callText": "bodyParser.urlencoded({ extended: true })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:static",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 19,
+        "callText": "express.static(__dirname + '/assets')",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:get",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 21,
+        "callText": "app.get('/', (req: express.Request, res: express.Response) => {\n  res.json({ sta",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:status",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 35,
+        "callText": "res.status(401)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:listen",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 55,
+        "callText": "app.listen(PORT, () => {\n  console.info(`server up on port ${PORT}`);\n})",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(top-level)",
+      "targetId": "ts:src/main.ts:info",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/main.ts",
+        "callSiteLine": 56,
+        "callText": "console.info(`server up on port ${PORT}`)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(file)",
+      "targetId": "ts:../../express:default",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "express",
+        "sourceLine": 1,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(file)",
+      "targetId": "ts:../../cors:default",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "cors",
+        "sourceLine": 2,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(file)",
+      "targetId": "ts:../../body-parser:*",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "body-parser",
+        "sourceLine": 3,
+        "importedName": "*"
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(file)",
+      "targetId": "ts:src/app/routes/routes.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./app/routes/routes",
+        "resolvedFile": "src/app/routes/routes.ts",
+        "sourceLine": 4,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/main.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "./app/models/http-exception.model",
+        "resolvedFile": "src/app/models/http-exception.model.ts",
+        "sourceLine": 5,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/prisma-client.ts:(top-level)",
+      "targetId": "ts:src/prisma/prisma-client.ts:PrismaClient",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/prisma-client.ts",
+        "callSiteLine": 17,
+        "callText": "new PrismaClient()",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/prisma-client.ts:(file)",
+      "targetId": "ts:../../@prisma/client:PrismaClient",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@prisma/client",
+        "sourceLine": 1,
+        "importedName": "PrismaClient"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:PrismaClient",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 14,
+        "callText": "new PrismaClient()",
+        "callKind": "constructor",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateUser",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 17,
+        "callText": "createUser({\n    username: randFullName(),\n    email: randEmail(),\n    password:",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateUser",
+      "targetId": "ts:src/prisma/seed.ts:randFullName",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 18,
+        "callText": "randFullName()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateUser",
+      "targetId": "ts:src/prisma/seed.ts:randEmail",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 19,
+        "callText": "randEmail()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateUser",
+      "targetId": "ts:src/prisma/seed.ts:randPassword",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 20,
+        "callText": "randPassword()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 26,
+        "callText": "createArticle(\n    {\n      title: randPhrase(),\n      description: randParagraph",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/prisma/seed.ts:randPhrase",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 28,
+        "callText": "randPhrase()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/prisma/seed.ts:randParagraph",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 29,
+        "callText": "randParagraph()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/prisma/seed.ts:randLines",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 30,
+        "callText": "randLines({ length: 10 })",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/prisma/seed.ts:join",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 30,
+        "callText": "randLines({ length: 10 }).join(' ')",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateArticle",
+      "targetId": "ts:src/prisma/seed.ts:randWord",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 31,
+        "callText": "randWord({ length: 4 })",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateComment",
+      "targetId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 37,
+        "callText": "addComment(randParagraph(), slug, id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:generateComment",
+      "targetId": "ts:src/prisma/seed.ts:randParagraph",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 37,
+        "callText": "randParagraph()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:all",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 41,
+        "callText": "Promise.all(Array.from({length: 12}, () => generateUser()))",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:from",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 41,
+        "callText": "Array.from({length: 12}, () => generateUser())",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:generateUser",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 41,
+        "callText": "generateUser()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:map",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 42,
+        "callText": "users?.map(user => user)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:generateArticle",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 46,
+        "callText": "generateArticle(user.id)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:generateComment",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 50,
+        "callText": "generateComment(userItem.id, article.slug)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:main",
+      "targetId": "ts:src/prisma/seed.ts:error",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 54,
+        "callText": "console.error(e)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:main",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 59,
+        "callText": "main()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:then",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 59,
+        "callText": "main()\n  .then(async () => {\n    await prisma.$disconnect();\n  })",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:$disconnect",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 61,
+        "callText": "prisma.$disconnect()",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:catch",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 59,
+        "callText": "main()\n  .then(async () => {\n    await prisma.$disconnect();\n  })\n  .catch(async",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(top-level)",
+      "targetId": "ts:src/prisma/seed.ts:exit",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/prisma/seed.ts",
+        "callSiteLine": 65,
+        "callText": "process.exit(1)",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randEmail",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randEmail"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randFullName",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randFullName"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randLines",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randLines"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randParagraph",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randParagraph"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randPassword",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randPassword"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randPhrase",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randPhrase"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@ngneat/falso:randWord",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@ngneat/falso",
+        "sourceLine": 1,
+        "importedName": "randWord"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:../../@prisma/client:PrismaClient",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@prisma/client",
+        "sourceLine": 9,
+        "importedName": "PrismaClient"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/registered-user.model.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../app/routes/auth/registered-user.model",
+        "resolvedFile": "src/app/routes/auth/registered-user.model.ts",
+        "sourceLine": 10,
+        "importedName": "RegisteredUser"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../app/routes/auth/auth.service",
+        "resolvedFile": "src/app/routes/auth/auth.service.ts",
+        "sourceLine": 11,
+        "importedName": "createUser"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../app/routes/article/article.service",
+        "resolvedFile": "src/app/routes/article/article.service.ts",
+        "sourceLine": 12,
+        "importedName": "addComment"
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateUser",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 16
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateArticle",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 25
+      }
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateComment",
+      "edgeType": "EXPORTS",
+      "metadata": {
+        "isDefault": false,
+        "isReExport": false,
+        "sourceLine": 36
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(top-level)",
+      "targetId": "ts:src/tests/prisma-mock.ts:mock",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/tests/prisma-mock.ts",
+        "callSiteLine": 6,
+        "callText": "jest.mock('../prisma/prisma-client', () => ({\n  __esModule: true,\n  default: moc",
+        "callKind": "method",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(top-level)",
+      "targetId": "ts:src/tests/prisma-mock.ts:mockDeep",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/tests/prisma-mock.ts",
+        "callSiteLine": 8,
+        "callText": "mockDeep<PrismaClient>()",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(top-level)",
+      "targetId": "ts:src/tests/prisma-mock.ts:beforeEach",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/tests/prisma-mock.ts",
+        "callSiteLine": 13,
+        "callText": "beforeEach(() => {\n  mockReset(prismaMock);\n})",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(top-level)",
+      "targetId": "ts:src/tests/prisma-mock.ts:mockReset",
+      "edgeType": "CALLS",
+      "metadata": {
+        "callSiteFile": "/home/justin/code-relation-graph/tests/sample-app/src/tests/prisma-mock.ts",
+        "callSiteLine": 14,
+        "callText": "mockReset(prismaMock)",
+        "callKind": "direct",
+        "isAwaited": false
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(file)",
+      "targetId": "ts:../../jest-mock-extended:mockDeep",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "jest-mock-extended",
+        "sourceLine": 1,
+        "importedName": "mockDeep"
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(file)",
+      "targetId": "ts:../../jest-mock-extended:mockReset",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "jest-mock-extended",
+        "sourceLine": 1,
+        "importedName": "mockReset"
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(file)",
+      "targetId": "ts:../../jest-mock-extended:DeepMockProxy",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "jest-mock-extended",
+        "sourceLine": 1,
+        "importedName": "DeepMockProxy"
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(file)",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "../prisma/prisma-client",
+        "resolvedFile": "src/prisma/prisma-client.ts",
+        "sourceLine": 3,
+        "importedName": "default"
+      }
+    },
+    {
+      "sourceId": "ts:src/tests/prisma-mock.ts:(file)",
+      "targetId": "ts:../../@prisma/client:PrismaClient",
+      "edgeType": "IMPORTS",
+      "metadata": {
+        "moduleSpecifier": "@prisma/client",
+        "sourceLine": 4,
+        "importedName": "PrismaClient"
+      }
+    },
+    {
+      "sourceId": "dir:src",
+      "targetId": "dir:src/app",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app",
+      "targetId": "dir:src/app/models",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/models",
+      "targetId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app",
+      "targetId": "dir:src/app/routes",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes",
+      "targetId": "dir:src/app/routes/article",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/article.controller.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/article.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/author.mapper.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/article",
+      "targetId": "ts:src/app/routes/article/comment.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes",
+      "targetId": "dir:src/app/routes/auth",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/auth.controller.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/register-input.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/registered-user.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/token.utils.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/auth",
+      "targetId": "ts:src/app/routes/auth/user.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes",
+      "targetId": "dir:src/app/routes/profile",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/profile",
+      "targetId": "ts:src/app/routes/profile/profile.controller.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/profile",
+      "targetId": "ts:src/app/routes/profile/profile.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/profile",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/profile",
+      "targetId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes",
+      "targetId": "ts:src/app/routes/routes.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes",
+      "targetId": "dir:src/app/routes/tag",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/tag",
+      "targetId": "ts:src/app/routes/tag/tag.controller.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/tag",
+      "targetId": "ts:src/app/routes/tag/tag.model.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/app/routes/tag",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src",
+      "targetId": "ts:src/main.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src",
+      "targetId": "dir:src/prisma",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/prisma",
+      "targetId": "ts:src/prisma/prisma-client.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/prisma",
+      "targetId": "ts:src/prisma/seed.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src",
+      "targetId": "dir:src/tests",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "dir:src/tests",
+      "targetId": "ts:src/tests/prisma-mock.ts:(file)",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:HttpException:constructor",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/models/http-exception.model.ts:(file)",
+      "targetId": "ts:src/app/models/http-exception.model.ts:HttpException",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.mapper.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.mapper.ts:articleMapper",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:buildFindAllQuery",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticles",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getFeed",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:createArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:disconnectArticlesTags",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:updateArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:getCommentsByArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:addComment",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:deleteComment",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:favoriteArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/article.service.ts:(file)",
+      "targetId": "ts:src/app/routes/article/article.service.ts:unfavoriteArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/article/author.mapper.ts:(file)",
+      "targetId": "ts:src/app/routes/article/author.mapper.ts:authorMapper",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:checkUserUniqueness",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:createUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:login",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:getCurrentUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.service.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.service.ts:updateUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/auth.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/auth.ts:getTokenFromHeaders",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/auth/token.utils.ts:(file)",
+      "targetId": "ts:src/app/routes/auth/token.utils.ts:generateToken",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:getProfile",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:followUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.service.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.service.ts:unfollowUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/profile/profile.utils.ts:(file)",
+      "targetId": "ts:src/app/routes/profile/profile.utils.ts:profileMapper",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/app/routes/tag/tag.service.ts:(file)",
+      "targetId": "ts:src/app/routes/tag/tag.service.ts:getTags",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateUser",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateArticle",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:generateComment",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    },
+    {
+      "sourceId": "ts:src/prisma/seed.ts:(file)",
+      "targetId": "ts:src/prisma/seed.ts:main",
+      "edgeType": "CONTAINS",
+      "metadata": {}
+    }
+  ]
+}

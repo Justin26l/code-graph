@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(echo *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)",
+      "Bash(grep *)",
+      "Bash(which *)",
+      "Write(src/**)",
+      "Write(tsconfig.json)",
+      "Write(/.gitignore)",
+      "Edit(src/**)",
+      "Edit(tsconfig.json)",
+      "Edit(/.gitignore)",
+      "Edit(package.json)",
+      "Bash(rm -rf tests/fixtures/ts-sample/.crg tests/fixtures/ts-sample/graph.* && node dist/cli.js build tests/fixtures/ts-sample --languages ts --html /tmp/build-test.html 2>&1)"
+    ],
+    "defaultMode": "auto",
+    "additionalDirectories": [
+      "/home/justin/code-relation-graph/tests/fixtures/ts-sample"
+    ]
+  }
+}
